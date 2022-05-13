@@ -1,0 +1,1 @@
+function initApp(){dateSearch()}function dateSearch(){document.querySelector("#date").addEventListener("input",(function(t){const n=t.target.value;window.location="?date="+n}))}document.addEventListener("DOMContentLoaded",(function(){initApp()}));
